@@ -1,0 +1,29 @@
+* {
+  background-color: rgb(200, 212, 223);
+}
+
+.btn > span:nth-child(2) {
+  display: none;
+}
+
+.btn-wrapper {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  box-shadow:
+    0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn,
+.btn-text-one {
+  background-color: rgb(12, 12, 97);
+  color: white;
+  padding: 25px 30px;
+}
+
+.btn,
+.btn-wrapper,
+.btn-text-one {
+  border-radius: 38px;
+}
